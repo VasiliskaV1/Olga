@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!-- Здесь ошибок нет -->
+<html lang="ru">
+    <head>
+        <title>Главная</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="index.html"><img src="webLogo.png" alt="logotype" width="250" /></a>
+            </div>
+            <h1>Основы Web-технологий</h1>
+            <nav>
+                <ul class="main_menu">
+                    <li>
+                        <a href="index.html">Главное</a>
+                    </li>
+                    <li class="pop-up_menu">
+                        <a href="web-technology.html">Web-технологии</a>
+                        <ul >
+                            <li>
+                                <a href="html5.html">HTML5</a>
+                            </li>
+                            <li>
+                                <a href="css3.html">CSS3</a>
+                            </li>
+                            <li>
+                                <a href="javascript.html">JavaScript</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="calculator.html">Калькулятор</a>
+                    </li>
+                    <li>
+                        <a href="test.html">Тест</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrap">
+            <main>
+                <form name="test" class="test">
+                    <p>Какой тег предназначен для создания ссылок:<br />
+                        <input type="radio" name="link" value="a1" /> &#60;a&#62;<br />
+                        <input type="radio" name="link" value="a2" /> &#60;a&#160;/&#62;<br />
+                        <input type="radio" name="link" value="ref1" /> &#60;ref&#62;<br />
+                        <input type="radio" name="link" value="ref2" /> &#60;ref&#160;/&#62;<br />
+                    </p>
+                    <p>Какой тег предназначен для создания нумерованного списка:<br />
+                        <input type="radio" name="list" value="li" /> &#60;li&#62; <br />
+                        <input type="radio" name="list" value="dl" /> &#60;dl&#62; <br />
+                        <input type="radio" name="list" value="ol" /> &#60;ol&#62; <br />
+                        <input type="radio" name="list" value="ul" /> &#60;ul&#62; <br />
+                    </p>
+                    <p>Какой тег предназначен для передачи служебной информации браузеру:<br />
+                        <input type="radio" name="inf" value="info1" /> &#60;info&#62;<br />
+                        <input type="radio" name="inf" value="info2" /> &#60;info&#160;/&#62;<br />
+                        <input type="radio" name="inf" value="met1" /> &#60;meta&#62;<br />
+                        <input type="radio" name="inf" value="met2" /> &#60;meta&#160;/&#62;<br />
+                    </p>
+                    <p>Какие теги используются при создании таблицы:<br />
+                        <input type="checkbox" name="tab" value="bod" /> &#60;bodyt&#62;<br />
+                        <input type="checkbox" name="tab" value="td" /> &#60;td&#62;<br />
+                        <input type="checkbox" name="tab" value="cap" /> &#60;caption&#62;<br />
+                        <input type="checkbox" name="tab" value="col" /> &#60;column&#62;<br />
+                    </p>
+                    <p>Какие атрибуты используются при создании форм:<br />
+                        <input type="checkbox" name="atr" value="aut" />autocomplete<br />
+                        <input type="checkbox" name="atr" value="act" />action<br />
+                        <input type="checkbox" name="atr" value="cha" />charset<br />
+                        <input type="checkbox" name="atr" value="val" />validate<br />
+                    </p>
+                    <button class="send" type="submit">Результат</button>
+                </form>
+            </main>
+        </div>
+        <footer>
+            <address>
+                <a href="mailto:mail@mail">Пишите: mail@mail</a>
+            </address>
+            <p>&#169; Фамилия И.О., год</p>
+        </footer>
+    </body>
+</html>

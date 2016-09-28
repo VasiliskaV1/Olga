@@ -1,0 +1,151 @@
+/* General style*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #808080;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+header, .wrap, footer {
+    background-color: white;
+    border-radius: 10px;
+    margin: -1px auto 0;
+    padding: 5px 10px;
+    width: 900px;
+}
+
+footer {
+    text-align: center;
+}
+
+main {
+    text-align: justify;
+}
+
+/* Header style*/
+
+.main_menu {
+    clear: both;
+    padding: 0px 0 0px 280px;
+}
+
+.main_menu li {
+    list-style-type: none;
+    display: inline;
+}
+
+.pop-up_menu {
+    position: relative;
+}
+
+.pop-up_menu ul {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 100%;
+}
+
+.pop-up_menu:hover ul {
+    display: block;
+}
+
+.pop-up_menu ul li {
+    display: block;
+    padding: 3px 5px 0;
+}
+
+.pop-up_menu ul li:last-child {
+    padding: 3px 5px;
+}
+
+h1 {
+    padding: 40px 0 0 280px;
+}
+
+header img {
+    float: left;
+}
+
+/*style for list "Web-tecnology"*/
+
+.web_group {
+    list-style-type: disc;
+    padding-left: 15px;
+}
+
+.web_group dd {
+    padding-left: 20px;
+}
+
+/*style for list "HTML5"*/
+
+.html5 aside {
+    background-color: #AAA;
+    border-radius: 7px;
+    float:right;
+    font-size: 12.5px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 20%;
+}
+
+/*style for list "Calculator"*/
+
+.calc .total  button {
+    height: 64px;
+    padding: 0;
+}
+
+.calc button {
+    padding: 5px;
+    width:100%;
+    height: 30px;
+}
+
+.result {
+    padding: 2px;
+}
+
+.result input {
+    display:block;
+    height:30px;
+    text-align: right;
+    width:100%;
+}
+
+table{
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid #A9A9A9;
+    height: 100%;
+    width: 60px;
+}
+
+tr {
+    height: 30px;
+}
+
+/*style for list "Test"*/
+
+.send {
+    border: 1px solid #A9A9A9;
+    display: block;
+    margin-top: 5px;
+    padding: 3px 7px;
+}
+
+.test input {
+    margin-right: 5px;
+}
